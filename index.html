@@ -29,7 +29,6 @@
       .roboto {
         font-family: "Roboto", sans-serif;
         font-optical-sizing: auto;
-        font-weight: 900;
         font-style: normal;
         font-variation-settings: "wdth" 100;
       }
@@ -41,7 +40,7 @@
       <!-- Navbar section -->
       <nav>
         <div
-          class="flex flex-col md:flex-row justify-between container mx-auto text-center items-center content-center pt-3 md:pt-5 pb-1 md:pb-5 pl-2"
+          class="flex flex-col md:flex-row justify-between container mx-auto text-center items-center content-center pt-3 md:pt-5 pb-3 md:pb-5 pl-2"
         >
           <div
             class="flex flex-col md:flex-row items-center content-center mb-3 md:mb-0"
@@ -57,23 +56,43 @@
             <div
               class="flex items-center content-center rounded-[50px] pt-[15px] pb-[15px] pl-7 pr-7 gap-2 bg-[#41ff6a2b] hover:transition hover:duration-400 hover:ease-in-out hover:scale-110"
             >
-              <h2 class="roboto font-bold">0</h2>
+              <h2 class="roboto font-extrabold">0</h2>
               <img src="./assets/heart.png" alt="" class="w-[25px] h-[25px]" />
             </div>
             <div
               class="flex items-center content-center rounded-[50px] pt-[15px] pb-[15px] pl-7 pr-7 gap-1 bg-[#41ff6a2b] roboto hover:transition hover:duration-400 hover:ease-in-out hover:scale-110"
             >
-              <h2>100</h2>
+              <h2 class="roboto font-extrabold">100</h2>
               <img src="./assets/coin.png" alt="" class="w-[25px] h-[25px]" />
             </div>
             <div
               class="items-center content-center rounded-[50px] text-white pt-[15px] pb-[15px] pl-7 pr-7 gap-2 bg-[#00A63E] roboto hover:transition hover:duration-400 hover:ease-in-out hover:scale-110"
             >
-              <h2>2 Copy</h2>
+              <h2 class="roboto font-extrabold">2 Copy</h2>
             </div>
           </div>
         </div>
       </nav>
+
+      <!-- Hero section -->
+      <div
+        class="bg-linear-to-l from-[#013223] via-[#127455] to-[#013223] text-white"
+      >
+        <div class="text-center pt-5 pb-5">
+          <img
+            src="./assets/logo-dark.png"
+            alt=""
+            class="w-[90px] h-[90px] mx-auto"
+          />
+          <h2 class="hind-madurai text-[40px] pb-3 pt-3">
+            জরুরি সেবা ডিরেক্টরি
+          </h2>
+          <p class="roboto text-[20px] font-semibold pl-5 pr-5">
+            Government Emergency Services at Your Fingertip - A Project by
+            Government of the People's Republic of Bangladesh
+          </p>
+        </div>
+      </div>
     </header>
   </body>
 </html>
