@@ -5,7 +5,8 @@
 এই প্রজেক্টটি বাংলাদেশ সরকারের জরুরি সেবা প্ল্যাটফর্ম থেকে অনুপ্রাণিত এবং পরিষ্কার ও ব্যবহারবান্ধব ডিজাইনে তৈরি।
 
 ---
-## [View Live Demo]([https://yourusername.github.io](https://amitchandradas2004.github.io/Emergency-Service-Directory-of-Bangladesh-Bangla-Version/))
+## [View Live Demo on GitHub Pages]https://amitchandradas2004.github.io/Emergency-Service-Directory-of-Bangladesh-Bangla-Version/
+
  ## 
 ---
 ## 📌 প্রজেক্টের সংক্ষিপ্ত বিবরণ
